@@ -1,10 +1,9 @@
-"use client";
+
 import { GraduationCap, Languages, BadgeCheck, Download, Award } from 'lucide-react';
-import { useRef } from 'react';
 import AnimatedSectionL from "@/components/ui/Animation/animation-view-left";
 
 function CardSobre() {
-  const ref = useRef<HTMLDivElement>(null);
+ 
 
   return (
     <div className="sm:flex sm:flex-wrap sm:gap-4 sm:justify-center">
